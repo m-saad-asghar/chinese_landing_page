@@ -27,7 +27,7 @@ const Footer = () => {
               阿联酋哈伊马角，阿尔库瓦伊斯海滨大道，阿尔诺姆塔楼1006套房，10楼
               </p>
             </div>
-            <div className="col-lg-3 col-md-12 responsive_container" style={{display: "flex", justifyContent: "flex-end", alignItems: "center"}}>
+            <div className="col-lg-3 col-md-12 responsive_container" style={{display: "flex", justifyContent: "center", alignItems: "center"}}>
               <ul>
                 <li>
                   <Link
