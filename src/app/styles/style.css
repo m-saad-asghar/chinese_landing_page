@@ -170,6 +170,11 @@ img {
   background: #dab35c;
   transition: 0.4s;
 }
+.we_chat {
+  object-fit: cover;
+  border-radius: 10px;
+  width: 200px !important;
+}
 .section-title::after {
   left: 0;
   height: 50%;
@@ -388,6 +393,14 @@ Main Banner CSS
 }
 .home-slides .swiper-button-prev:hover, .home-slides .swiper-button-next:hover {
   background-color: #dab35c;
+}
+
+@media (max-width: 991px) {
+  .responsive_container {
+    margin-top: 25px !important;
+    align-items: center;
+    justify-content: center !important;
+  }
 }
 
 .main-banner {
