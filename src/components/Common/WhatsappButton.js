@@ -17,8 +17,8 @@ const WhatsAppButton = () => {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-          message: 'WhatsApp button clicked from Commercial Landing Page',
-          origin: "Commercial",
+          message: 'WhatsApp button clicked from Chinese Landing Page',
+          origin: "Chinese",
           type: "Whatsapp",
           source: "Web",
           page_url: window.location.href
@@ -93,7 +93,7 @@ const WhatsAppButton = () => {
             boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",
           }}
         >
-          👋 Hi there! Need help? Chat with us on WhatsApp.
+          👋 你好！需要帮助吗？通过 WhatsApp 与我们聊天。
         </div>
       )}
 

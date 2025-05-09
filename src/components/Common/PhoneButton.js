@@ -17,8 +17,8 @@ const PhoneButton = () => {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-          message: 'Phone button clicked from Commercial Landing Page',
-          origin: "Commercial",
+          message: 'Phone button clicked from Chinese Landing Page',
+          origin: "Chinese",
           type: "Phone",
           source: "Web",
           page_url: window.location.href
@@ -86,8 +86,8 @@ const PhoneButton = () => {
             boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",
           }}
         >
-        Toll-Free Legal Support — Call RAALC Now!
-         No cost, no hassle. Just expert advice.
+        免费法律支持 — 立即致电 RAALC！
+        无需费用，无需麻烦，仅提供专家建议。
         </div>
       )}
 

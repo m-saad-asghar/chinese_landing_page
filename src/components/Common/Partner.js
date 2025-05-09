@@ -8,7 +8,7 @@ import Image from "next/image";
 const Partner = () => {
   return (
     <>
-      <div className="partner-area ptb-40 bg-f6f6f6" style={{marginBottom: 50}}>
+      <div className="partner-area ptb-40 bg-ffffff" style={{marginBottom: 50}}>
         <div className="container">
           <Swiper
             spaceBetween={30}

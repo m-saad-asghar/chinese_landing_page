@@ -59,7 +59,7 @@ const HowWeWork = () => {
               <div className="single-how-work">
                  <div className="pic">
                                   <Image
-                                    src="/images/gallery_2.png"
+                                    src="/images/gallery_5.JPG"
                                     alt="gallery-img-2"
                                     className="w-100"
                                      style={{height: 350, objectFit: "cover", borderRadius: 10}}
@@ -122,7 +122,7 @@ const HowWeWork = () => {
               <div className="single-how-work">
                  <div className="pic" style={{marginTop: 20}}>
                                   <Image
-                                    src="/images/gallery_5.JPG"
+                                    src="/images/gallery_5.jpeg"
                                     alt="gallery-img-5"
                                     className="w-100"
                                      style={{height: 350, objectFit: "cover", borderRadius: 10}}

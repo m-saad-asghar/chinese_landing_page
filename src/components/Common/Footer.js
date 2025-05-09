@@ -10,7 +10,7 @@ const Footer = () => {
       <footer className="footer-area">
         <div className="container">
           <div className="row">
-            <div className="col-lg-4 col-md-12">
+            <div className="col-lg-3 col-md-12">
               <h4 style={{textAlign: "left"}}>
                   <span style={{textTransform: "none", fontSize: 25}}>沙迦分公司</span>
               </h4>
@@ -18,7 +18,7 @@ const Footer = () => {
               阿联酋沙迦，布海拉海滨大道，萨尔赫阿勒马拉特大厦1307套房，13楼
               </p>
             </div>
-            <div className="col-lg-4 col-md-12">
+            <div className="col-lg-3 col-md-12">
               <h4 style={{textAlign: "left"}}>
                   <span style={{textTransform: "none", fontSize: 25}}>哈伊马角分公司</span>
               </h4>
@@ -26,7 +26,7 @@ const Footer = () => {
               阿联酋哈伊马角，阿尔库瓦伊斯海滨大道，阿尔诺姆塔楼1006套房，10楼
               </p>
             </div>
-            <div className="col-lg-4 col-md-12" style={{display: "flex", justifyContent: "flex-end", alignItems: "center"}}>
+            <div className="col-lg-3 col-md-12" style={{display: "flex", justifyContent: "flex-end", alignItems: "center"}}>
               <ul>
                 <li>
                   <Link
@@ -57,6 +57,9 @@ const Footer = () => {
                   ></Link>
                 </li>
               </ul>
+            </div>
+            <div className="col-lg-3 col-md-12">
+             
             </div>
           </div>
         </div>

@@ -8,14 +8,15 @@ import Partner from "./Partner";
 const Testimonial = () => {
   return (
     <>
-      <section className="testimonials-area ptb-80 bg-f6f6f6" id="clients">
-        <div className="container">
+      <section className="testimonials-area ptb-80 bg-ffffff" id="clients">
+        <div className="container" style={{backgroundColor: "#ffffff"}}>
           <div
             className="section-title"
             data-aos="fade-up"
             data-aos-delay="100"
             data-aos-once="true"
             data-aos-duration="1000"
+            style={{backgroundColor: "#ffffff"}}
           >
             <h2>
             我们的客户：行业领袖，真正的合作伙伴，卓越的成果见证

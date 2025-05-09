@@ -94,7 +94,7 @@ const Navbar = () => {
                   className="nav-link active"
                   href="#home"
                 >
-                  家
+                  主页
                 </AnchorLink>
               </li>
 
@@ -105,7 +105,7 @@ const Navbar = () => {
                   className="nav-link"
                   href="#about"
                 >
-                  关于
+                  关于我们
                 </AnchorLink>
               </li>
 
@@ -116,7 +116,7 @@ const Navbar = () => {
                   className="nav-link"
                   href="#clients"
                 >
-                  客户
+                  我们的客户
                 </AnchorLink>
               </li>
 
@@ -138,7 +138,7 @@ const Navbar = () => {
                   className="nav-link"
                   href="#faq"
                 >
-                  FAQ
+                  常见问题解答
                 </AnchorLink>
               </li>
 
@@ -149,7 +149,7 @@ const Navbar = () => {
                   className="nav-link"
                   href="#team"
                 >
-                  团队
+                  我们的团队
                 </AnchorLink>
               </li>
 
@@ -161,7 +161,7 @@ const Navbar = () => {
                   className="nav-link"
                   href="#gallery"
                 >
-                  画廊
+                  新闻动态 
                 </AnchorLink>
               </li>
 
@@ -205,7 +205,7 @@ const Navbar = () => {
                   className="nav-link"
                   href="#contact"
                 >
-                  接触
+                  联系我们
                 </AnchorLink>
               </li>
             </ul>
