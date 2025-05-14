@@ -85,7 +85,7 @@ const Team = () => {
               <div className="our-team">
                 <div className="pic">
                   <Image
-                    src="/images/israa.jpg"
+                    src="/images/abdelaziz.jpg"
                     alt="team-img"
                     className="w-100"
                     width={300}
@@ -94,8 +94,8 @@ const Team = () => {
                 </div>
 
                 <div className="team-content">
-                  <h3 className="title">伊斯拉·阿卜杜拉</h3>
-                  <span className="post">公司事务主管</span>
+                  <h3 className="title">阿卜杜拉齐兹·阿尔哈米里</h3>
+                  <span className="post">出庭诉讼业务负责人</span>
                 </div>
 
                 <div className="social">
@@ -103,7 +103,7 @@ const Team = () => {
                   
                     <li>
                       <a
-                        href="https://www.linkedin.com/in/israa-abdulla-b9b30313b/"
+                        href="https://www.linkedin.com/in/abdelaziz-alkhamiri/"
                         className="fa-brands fa-linkedin-in"
                         target="_blank"
                       ></a>
@@ -117,7 +117,7 @@ const Team = () => {
               <div className="our-team">
                 <div className="pic">
                   <Image
-                    src="/images/atif.jpg"
+                    src="/images/lina.jpg"
                     alt="team-img"
                     className="w-100"
                     width={300}
@@ -126,8 +126,8 @@ const Team = () => {
                 </div>
 
                 <div className="team-content">
-                  <h3 className="title">阿蒂夫·巴希尔</h3>
-                  <span className="post">财务与税务经理</span>
+                  <h3 className="title">莉娜·胡代里</h3>
+                  <span className="post">首席运营官</span>
                 </div>
 
                 <div className="social">
@@ -135,7 +135,7 @@ const Team = () => {
                   
                     <li>
                       <a
-                        href="https://www.linkedin.com/in/atif-bashir/"
+                        href="https://www.linkedin.com/in/lina-khudairi-48721ba1/"
                         className="fa-brands fa-linkedin-in"
                         target="_blank"
                       ></a>
@@ -170,6 +170,99 @@ const Team = () => {
             modules={[Pagination, Autoplay]}
             className="team-slider"
           >
+            <SwiperSlide>
+              <div className="our-team">
+                <div className="pic">
+                  <Image
+                    src="/images/israa.jpg"
+                    alt="team-img"
+                    className="w-100"
+                    width={300}
+                    height={350}
+                  />
+                </div>
+
+                <div className="team-content">
+                  <h3 className="title">伊斯拉·阿卜杜拉</h3>
+                  <span className="post">公司事务主管</span>
+                </div>
+
+                <div className="social">
+                  <ul>
+                  
+                    <li>
+                      <a
+                        href="https://www.linkedin.com/in/israa-abdulla-b9b30313b/"
+                        className="fa-brands fa-linkedin-in"
+                        target="_blank"
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="our-team">
+                <div className="pic">
+                  <Image
+                    src="/images/hossam.jpg"
+                    alt="team-img"
+                    className="w-100"
+                    width={300}
+                    height={350}
+                  />
+                </div>
+
+                <div className="team-content">
+                  <h3 className="title">霍萨姆·哈萨宁</h3>
+                  <span className="post">诉讼业务部主管</span>
+                </div>
+
+                {/* <div className="social">
+                  <ul>
+                  
+                    <li>
+                      <a
+                        href="https://www.linkedin.com/in/israa-abdulla-b9b30313b/"
+                        className="fa-brands fa-linkedin-in"
+                        target="_blank"
+                      ></a>
+                    </li>
+                  </ul>
+                </div> */}
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="our-team">
+                <div className="pic">
+                  <Image
+                    src="/images/atif.jpg"
+                    alt="team-img"
+                    className="w-100"
+                    width={300}
+                    height={350}
+                  />
+                </div>
+
+                <div className="team-content">
+                  <h3 className="title">阿蒂夫·巴希尔</h3>
+                  <span className="post">财务与税务经理</span>
+                </div>
+
+                <div className="social">
+                  <ul>
+                  
+                    <li>
+                      <a
+                        href="https://www.linkedin.com/in/atif-bashir/"
+                        className="fa-brands fa-linkedin-in"
+                        target="_blank"
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </SwiperSlide>
             <SwiperSlide>
               <div className="our-team">
                 <div className="pic">
