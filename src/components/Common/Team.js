@@ -95,7 +95,7 @@ const Team = () => {
 
                 <div className="team-content">
                   <h3 className="title">阿卜杜拉齐兹·阿尔哈米里</h3>
-                  <span className="post">出庭诉讼业务负责人</span>
+                  <span className="post">辩护部主管</span>
                 </div>
 
                 <div className="social">
@@ -215,7 +215,7 @@ const Team = () => {
 
                 <div className="team-content">
                   <h3 className="title">霍萨姆·哈萨宁</h3>
-                  <span className="post">诉讼业务部主管</span>
+                  <span className="post">诉讼部主管</span>
                 </div>
 
                 {/* <div className="social">
