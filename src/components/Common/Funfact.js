@@ -78,7 +78,7 @@ const Funfact = () => {
               data-aos-duration="1000"
             >
               <div className="funFact">
-                <i className="fa fa-users"></i>
+                <i className="fa fa-flag"></i>
                 <h2 className="count">15+</h2>
                 <p>个国家背景</p>
               </div>
@@ -93,7 +93,7 @@ const Funfact = () => {
               data-aos-duration="1000"
             >
               <div className="funFact">
-                <i className="fa fa-users"></i>
+                <i className="fa fa-language"></i>
                 <h2 className="count">17+</h2>
                 <p>种语言能力</p>
               </div>
