@@ -17,7 +17,7 @@ const DemoSidebarContent = ({ active, onClick }) => {
               <div className="single-demo">
                 <Image
                   src="/images/demo-img/home-1.webp"
-                  srcSet="/images/demo-img/home-1.webp"
+                  srcset="/images/demo-img/home-1.webp"
                   alt="Home One"
                   priority
                   width={700}
@@ -43,7 +43,7 @@ const DemoSidebarContent = ({ active, onClick }) => {
               <div className="single-demo">
                 <Image
                   src="/images/demo-img/home-3.webp"
-                  srcSet="/images/demo-img/home-3.webp"
+                  srcset="/images/demo-img/home-3.webp"
                   alt="Home Three"
                   priority
                   width={700}
@@ -57,7 +57,7 @@ const DemoSidebarContent = ({ active, onClick }) => {
               <div className="single-demo">
                 <Image
                   src="/images/demo-img/home-4.webp"
-                  srcSet="/images/demo-img/home-4.webp"
+                  srcset="/images/demo-img/home-4.webp"
                   alt="Home Four"
                   priority
                   width={700}
@@ -71,7 +71,7 @@ const DemoSidebarContent = ({ active, onClick }) => {
               <div className="single-demo">
                 <Image
                   src="/images/demo-img/home-5.webp"
-                  srcSet="/images/demo-img/home-5.webp"
+                  srcset="/images/demo-img/home-5.webp"
                   alt="Home Five"
                   priority
                   width={700}
@@ -85,7 +85,7 @@ const DemoSidebarContent = ({ active, onClick }) => {
               <div className="single-demo">
                 <Image
                   src="/images/demo-img/home-6.webp"
-                  srcSet="/images/demo-img/home-6.webp"
+                  srcset="/images/demo-img/home-6.webp"
                   alt="Home Six"
                   priority
                   width={700}
@@ -99,7 +99,7 @@ const DemoSidebarContent = ({ active, onClick }) => {
               <div className="single-demo">
                 <Image
                   src="/images/demo-img/home-7.webp"
-                  srcSet="/images/demo-img/home-7.webp"
+                  srcset="/images/demo-img/home-7.webp"
                   alt="Home Seven"
                   priority
                   width={700}
@@ -113,7 +113,7 @@ const DemoSidebarContent = ({ active, onClick }) => {
               <div className="single-demo">
                 <Image
                   src="/images/demo-img/home-8.webp"
-                  srcSet="/images/demo-img/home-8.webp"
+                  srcset="/images/demo-img/home-8.webp"
                   alt="Home Eight"
                   priority
                   width={700}
@@ -127,7 +127,7 @@ const DemoSidebarContent = ({ active, onClick }) => {
               <div className="single-demo">
                 <Image
                   src="/images/demo-img/home-9.webp"
-                  srcSet="/images/demo-img/home-9.webp"
+                  srcset="/images/demo-img/home-9.webp"
                   alt="Home Nine"
                   priority
                   width={700}
@@ -141,7 +141,7 @@ const DemoSidebarContent = ({ active, onClick }) => {
               <div className="single-demo">
                 <Image
                   src="/images/demo-img/home-10.webp"
-                  srcSet="/images/demo-img/home-10.webp"
+                  srcset="/images/demo-img/home-10.webp"
                   alt="Home Ten"
                   priority
                   width={700}
@@ -155,7 +155,7 @@ const DemoSidebarContent = ({ active, onClick }) => {
               <div className="single-demo">
                 <Image
                   src="/images/demo-img/home-11.webp"
-                  srcSet="/images/demo-img/home-11.webp"
+                  srcset="/images/demo-img/home-11.webp"
                   alt="Home Eleven"
                   priority
                   width={700}
@@ -169,7 +169,7 @@ const DemoSidebarContent = ({ active, onClick }) => {
               <div className="single-demo">
                 <Image
                   src="/images/demo-img/home-12.webp"
-                  srcSet="/images/demo-img/home-12.webp"
+                  srcset="/images/demo-img/home-12.webp"
                   alt="Home Twelve"
                   priority
                   width={700}

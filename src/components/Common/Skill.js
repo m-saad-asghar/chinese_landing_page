@@ -73,7 +73,7 @@ const Skill = () => {
               >
                 <Image
                   src="/images/video-img.webp"
-                  srcSet="/images/video-img.webp"
+                  srcset="/images/video-img.webp"
                   alt="video-img"
                   priority
                   width={580}

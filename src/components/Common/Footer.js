@@ -66,7 +66,7 @@ const Footer = () => {
              <div className="pic">
                                                <Image
                                                  src="/images/wechat.webp"
-                                                 srcSet="/images/wechat.webp"
+                                                 srcset="/images/wechat.webp"
                                                  alt="we_chat_qr_code"
                                                  priority
                                                  className="w-100 we_chat"

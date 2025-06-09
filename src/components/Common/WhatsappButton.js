@@ -109,7 +109,7 @@ const WhatsAppButton = () => {
       >
         <Image
           src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
-          srcSet="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+          srcset="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
           alt="WhatsApp Chat"
           priority
           width={100}

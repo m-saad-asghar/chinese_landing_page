@@ -112,7 +112,7 @@ const PhoneButton = () => {
       >
         <Image
           src="/images/phone_icon.webp"
-          srcSet="/images/phone_icon.webp"
+          srcset="/images/phone_icon.webp"
           alt="Phone"
           priority
           width={80}

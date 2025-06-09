@@ -99,7 +99,7 @@ const About = () => {
               >
                 <Image
                   src="/images/about.webp"
-                  srcSet="/images/about.webp"
+                  srcset="/images/about.webp"
                   alt="about"
                   priority
                   className="w-100"

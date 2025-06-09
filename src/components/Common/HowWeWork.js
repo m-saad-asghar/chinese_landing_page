@@ -39,7 +39,7 @@ const HowWeWork = () => {
                  <div className="pic">
                                   <Image
                                     src="/images/gallery_1.webp"
-                                    srcSet="/images/gallery_1.webp"
+                                    srcset="/images/gallery_1.webp"
                                     alt="gallery-img-1" 
                                     className="w-100"
                                      style={{height: 350, objectFit: "cover", borderRadius: 10}}
@@ -61,7 +61,7 @@ const HowWeWork = () => {
                  <div className="pic">
                                   <Image
                                     src="/images/gallery_5.webp"
-                                    srcSet="/images/gallery_5.webp"
+                                    srcset="/images/gallery_5.webp"
                                     alt="gallery-img-2"
                                     className="w-100"
                                      style={{height: 350, objectFit: "cover", borderRadius: 10}}
@@ -83,7 +83,7 @@ const HowWeWork = () => {
                  <div className="pic">
                                   <Image
                                     src="/images/gallery_3.webp"
-                                    srcSet="/images/gallery_3.webp"
+                                    srcset="/images/gallery_3.webp"
                                     alt="gallery-img-3"
                                     className="w-100"
                                      style={{height: 350, objectFit: "cover", borderRadius: 10}}
@@ -105,7 +105,7 @@ const HowWeWork = () => {
                  <div className="pic">
                                   <Image
                                     src="/images/gallery_4.webp"
-                                    srcSet="/images/gallery_4.webp"
+                                    srcset="/images/gallery_4.webp"
                                     alt="gallery-img-4"
                                     className="w-100"
                                     style={{height: 350, objectFit: "cover", borderRadius: 10}}
@@ -127,7 +127,7 @@ const HowWeWork = () => {
                  <div className="pic" style={{marginTop: 20}}>
                                   <Image
                                     src="/images/gallery_5.webp"
-                                    srcSet="/images/gallery_5.webp"
+                                    srcset="/images/gallery_5.webp"
                                     alt="gallery-img-5"
                                     className="w-100"
                                      style={{height: 350, objectFit: "cover", borderRadius: 10}}
@@ -149,7 +149,7 @@ const HowWeWork = () => {
               <div className="pic" style={{marginTop: 20}}>
                                   <Image
                                     src="/images/gallery_6.webp"
-                                    srcSet="/images/gallery_6.webp"
+                                    srcset="/images/gallery_6.webp"
                                     alt="gallery-img-6"
                                     className="w-100"
                                      style={{height: 350, objectFit: "cover", borderRadius: 10}}
@@ -171,7 +171,7 @@ const HowWeWork = () => {
               <div className="pic" style={{marginTop: 20}}>
                                   <Image
                                     src="/images/gallery_7.webp"
-                                    srcSet="/images/gallery_7.webp"
+                                    srcset="/images/gallery_7.webp"
                                     alt="gallery-img-7"
                                     className="w-100"
                                      style={{height: 350, objectFit: "cover", borderRadius: 10}}
@@ -193,7 +193,7 @@ const HowWeWork = () => {
               <div className="pic" style={{marginTop: 20}}>
                                   <Image
                                     src="/images/gallery_8.webp"
-                                    srcSet="/images/gallery_8.webp"
+                                    srcset="/images/gallery_8.webp"
                                     alt="gallery-img-8"
                                     className="w-100"
                                     style={{height: 350, objectFit: "cover", borderRadius: 10}}
