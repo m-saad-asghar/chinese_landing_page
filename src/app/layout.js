@@ -13,9 +13,6 @@ import "../app/styles/dark.css";
 
 import { Poppins } from "next/font/google";
 import GoTop from "@/components/Common/GoTop";
-import DemoSidebar from "@/components/Common/DemoSidebar/DemoSidebar";
-import AosAnimation from "@/components/Layout/AosAnimation";
-import DarkModeSwitcher from "@/components/Layout/DarkModeSwitcher";
 import WhatsAppButton from "@/components/Common/WhatsappButton";
 import PhoneButton from "@/components/Common/PhoneButton";
 import Script from "next/script";
@@ -90,7 +87,7 @@ export default function RootLayout({ children }) {
         </div>
 
         <GoTop />
-        <AosAnimation />
+        {/* <AosAnimation /> */}
 
         {/* Optional UI components */}
         {/* <DarkModeSwitcher />

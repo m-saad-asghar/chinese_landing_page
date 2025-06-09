@@ -70,7 +70,6 @@ const Footer = () => {
                                                  alt="we_chat_qr_code"
                                                  priority
                                                  className="w-100 we_chat"
-                                                
                                                  width={200}
                                                  height={200}
                                                />
