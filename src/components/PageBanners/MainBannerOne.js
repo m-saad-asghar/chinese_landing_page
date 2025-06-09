@@ -34,7 +34,7 @@ const MainBannerOne = () => {
                       data-aos-delay="200"
                       data-aos-once="true"
                       data-aos-duration="1000"
-                      style={{fontSize: 45}}
+                      style={{fontSize: 25}}
                     >
                       <Typewriter
         words={[
