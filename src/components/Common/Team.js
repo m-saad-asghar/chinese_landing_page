@@ -56,7 +56,7 @@ const Team = () => {
                     src="/images/ehab.webp"
                     srcset="/images/ehab.webp"
                     alt="team-img"
-                    priority
+                    
                     className="w-100"
                     width={300}
                     height={350}
@@ -90,7 +90,7 @@ const Team = () => {
                     src="/images/abdelaziz.webp"
                     srcset="/images/abdelaziz.webp"
                     alt="team-img"
-                    priority
+                    
                     className="w-100"
                     width={300}
                     height={350}
@@ -124,7 +124,7 @@ const Team = () => {
                     src="/images/lina.webp"
                     srcset="/images/lina.webp"
                     alt="team-img"
-                    priority
+                    
                     className="w-100"
                     width={300}
                     height={350}
@@ -183,7 +183,7 @@ const Team = () => {
                     src="/images/israa.webp"
                     srcset="/images/israa.webp"
                     alt="team-img"
-                    priority
+                    
                     className="w-100"
                     width={300}
                     height={350}
@@ -216,7 +216,7 @@ const Team = () => {
                     src="/images/hossam.webp"
                     srcset="/images/hossam.webp"
                     alt="team-img"
-                    priority
+                    
                     className="w-100"
                     width={300}
                     height={350}
@@ -249,7 +249,7 @@ const Team = () => {
                     src="/images/atif.webp"
                     srcset="/images/atif.webp"
                     alt="team-img"
-                    priority
+                    
                     className="w-100"
                     width={300}
                     height={350}
@@ -282,7 +282,7 @@ const Team = () => {
                     src="/images/kate.webp"
                     srcset="/images/kate.webp"
                     alt="team-img"
-                    priority
+                    
                     className="w-100"
                     width={300}
                     height={350}
@@ -316,7 +316,7 @@ const Team = () => {
                     src="/images/zaur.webp"
                     srcset="/images/zaur.webp"
                     alt="team-img"
-                    priority
+                    
                     className="w-100"
                     width={300}
                     height={350}
@@ -349,7 +349,7 @@ const Team = () => {
                     src="/images/anda.webp"
                     srcset="/images/anda.webp"
                     alt="team-img"
-                    priority
+                    
                     className="w-100"
                     width={300}
                     height={350}
@@ -382,7 +382,7 @@ const Team = () => {
                     src="/images/mohamed.webp"
                     srcset="/images/mohamed.webp"
                     alt="team-img"
-                    priority
+                    
                     className="w-100"
                     width={300}
                     height={350}
