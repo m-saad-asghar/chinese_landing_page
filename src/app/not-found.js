@@ -16,7 +16,7 @@ export default function NotFound() {
                   srcset="/images/404-error.webp"
                   src="/images/404-error.webp"
                   alt="error"
-                  
+                  priority
                   width={600}
                   height={587}
                 />
