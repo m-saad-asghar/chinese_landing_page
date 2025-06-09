@@ -112,7 +112,9 @@ const PhoneButton = () => {
       >
         <Image
           src="/images/phone_icon.webp"
+          srcSet="/images/phone_icon.webp"
           alt="Phone"
+          priority
           width={80}
           height={80}
           className={styles.whatsapp_icon}

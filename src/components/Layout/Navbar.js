@@ -65,7 +65,9 @@ const Navbar = () => {
           <div>
                               <Image
                                 src="/images/raalc_golden_logo.webp"
+                                srcSet="/images/raalc_golden_logo.webp"
                                 alt="raalc-logo"
+                                priority
                                 width={220}
                                 height={220}
                               />

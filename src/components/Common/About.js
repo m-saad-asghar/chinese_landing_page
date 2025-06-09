@@ -99,7 +99,9 @@ const About = () => {
               >
                 <Image
                   src="/images/about.webp"
+                  srcSet="/images/about.webp"
                   alt="about"
+                  priority
                   className="w-100"
                   width={560}
                   height={320}

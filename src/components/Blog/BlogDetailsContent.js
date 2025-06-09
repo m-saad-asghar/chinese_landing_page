@@ -19,7 +19,9 @@ const BlogDetailsContent = () => {
               <div className="blog-details">
                 <div className="article-img">
                   <Image
+                    srcSet="/images/blog-details.webp"
                     src="/images/blog-details.webp"
+                    priority
                     alt="blog-details"
                     width={900}
                     height={500}
@@ -105,8 +107,10 @@ const BlogDetailsContent = () => {
                         <div className="article-author">
                           <div className="author-img">
                             <Image
+                              srcSet="/images/client-avatar1.webp"
                               src="/images/client-avatar1.webp"
                               alt="client"
+                              priority
                               width={85}
                               height={85}
                             />

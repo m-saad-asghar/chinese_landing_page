@@ -42,7 +42,9 @@ const Services = () => {
                 <div className="services-img">
                   <Image
                     src="/images/services-img1.webp"
+                    srcSet="/images/services-img1.webp"
                     alt="services"
+                    priority
                     width={585}
                     height={400}
                   />
@@ -73,7 +75,9 @@ const Services = () => {
                 <div className="services-img">
                   <Image
                     src="/images/services-img2.webp"
+                    srcSet="/images/services-img2.webp"
                     alt="services"
+                    priority
                     width={585}
                     height={400}
                   />
@@ -104,7 +108,9 @@ const Services = () => {
                 <div className="services-img">
                   <Image
                     src="/images/services-img3.webp"
+                    srcSet="/images/services-img3.webp"
                     alt="services"
+                    priority
                     width={585}
                     height={400}
                   />
@@ -135,7 +141,9 @@ const Services = () => {
                 <div className="services-img">
                   <Image
                     src="/images/services-img4.webp"
+                    srcSet="/images/services-img4.webp"
                     alt="services"
+                    priority
                     width={585}
                     height={400}
                   />
@@ -166,7 +174,9 @@ const Services = () => {
                 <div className="services-img">
                   <Image
                     src="/images/services-img5.webp"
+                    srcSet="/images/services-img5.webp"
                     alt="services"
+                    priority
                     width={585}
                     height={400}
                   />
@@ -197,7 +207,9 @@ const Services = () => {
                 <div className="services-img">
                   <Image
                     src="/images/services-img6.webp"
+                    srcSet="/images/services-img6.webp"
                     alt="services"
+                    priority
                     width={585}
                     height={400}
                   />
@@ -228,7 +240,9 @@ const Services = () => {
                 <div className="services-img">
                   <Image
                     src="/images/services-img7.webp"
+                    srcSet="/images/services-img7.webp"
                     alt="services"
+                    priority
                     width={585}
                     height={400}
                   />
@@ -259,7 +273,9 @@ const Services = () => {
                 <div className="services-img">
                   <Image
                     src="/images/services-img8.webp"
+                    srcSet="/images/services-img8.webp"
                     alt="services"
+                    priority
                     width={585}
                     height={400}
                   />
@@ -290,7 +306,9 @@ const Services = () => {
                 <div className="services-img">
                   <Image
                     src="/images/services-img9.webp"
+                    srcSet="/images/services-img9.webp"
                     alt="services"
+                    priority
                     width={585}
                     height={400}
                   />

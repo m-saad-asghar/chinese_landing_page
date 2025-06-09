@@ -54,7 +54,9 @@ const Team = () => {
                 <div className="pic">
                   <Image
                     src="/images/ehab.webp"
+                    srcSet="/images/ehab.webp"
                     alt="team-img"
+                    priority
                     className="w-100"
                     width={300}
                     height={350}
@@ -86,7 +88,9 @@ const Team = () => {
                 <div className="pic">
                   <Image
                     src="/images/abdelaziz.webp"
+                    srcSet="/images/abdelaziz.webp"
                     alt="team-img"
+                    priority
                     className="w-100"
                     width={300}
                     height={350}
@@ -118,7 +122,9 @@ const Team = () => {
                 <div className="pic">
                   <Image
                     src="/images/lina.webp"
+                    srcSet="/images/lina.webp"
                     alt="team-img"
+                    priority
                     className="w-100"
                     width={300}
                     height={350}
@@ -175,7 +181,9 @@ const Team = () => {
                 <div className="pic">
                   <Image
                     src="/images/israa.webp"
+                    srcSet="/images/israa.webp"
                     alt="team-img"
+                    priority
                     className="w-100"
                     width={300}
                     height={350}
@@ -206,7 +214,9 @@ const Team = () => {
                 <div className="pic">
                   <Image
                     src="/images/hossam.webp"
+                    srcSet="/images/hossam.webp"
                     alt="team-img"
+                    priority
                     className="w-100"
                     width={300}
                     height={350}
@@ -237,7 +247,9 @@ const Team = () => {
                 <div className="pic">
                   <Image
                     src="/images/atif.webp"
+                    srcSet="/images/atif.webp"
                     alt="team-img"
+                    priority
                     className="w-100"
                     width={300}
                     height={350}
@@ -268,7 +280,9 @@ const Team = () => {
                 <div className="pic">
                   <Image
                     src="/images/kate.webp"
+                    srcSet="/images/kate.webp"
                     alt="team-img"
+                    priority
                     className="w-100"
                     width={300}
                     height={350}
@@ -300,7 +314,9 @@ const Team = () => {
                 <div className="pic">
                   <Image
                     src="/images/zaur.webp"
+                    srcSet="/images/zaur.webp"
                     alt="team-img"
+                    priority
                     className="w-100"
                     width={300}
                     height={350}
@@ -331,7 +347,9 @@ const Team = () => {
                 <div className="pic">
                   <Image
                     src="/images/anda.webp"
+                    srcSet="/images/anda.webp"
                     alt="team-img"
+                    priority
                     className="w-100"
                     width={300}
                     height={350}
@@ -362,7 +380,9 @@ const Team = () => {
                 <div className="pic">
                   <Image
                     src="/images/mohamed.webp"
+                    srcSet="/images/mohamed.webp"
                     alt="team-img"
+                    priority
                     className="w-100"
                     width={300}
                     height={350}

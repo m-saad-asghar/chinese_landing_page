@@ -37,7 +37,9 @@ const Work = () => {
             <div className="single-work">
               <Image
                 src="/images/work-img1.webp"
+                srcSet="/images/work-img1.webp"
                 alt="work-img"
+                priority
                 width={640}
                 height={450}
               />
@@ -71,7 +73,9 @@ const Work = () => {
             <div className="single-work">
               <Image
                 src="/images/work-img2.webp"
+                srcSet="/images/work-img2.webp"
                 alt="work-img"
+                priority
                 width={640}
                 height={450}
               />
@@ -105,7 +109,9 @@ const Work = () => {
             <div className="single-work">
               <Image
                 src="/images/work-img3.webp"
+                srcSet="/images/work-img3.webp"
                 alt="work-img"
+                priority
                 width={640}
                 height={450}
               />
@@ -139,7 +145,9 @@ const Work = () => {
             <div className="single-work">
               <Image
                 src="/images/work-img4.webp"
+                srcSet="/images/work-img4.webp"
                 alt="work-img"
+                priority
                 width={640}
                 height={450}
               />
@@ -173,7 +181,9 @@ const Work = () => {
             <div className="single-work">
               <Image
                 src="/images/work-img5.webp"
+                srcSet="/images/work-img5.webp"
                 alt="work-img"
+                priority
                 width={640}
                 height={450}
               />
@@ -207,7 +217,9 @@ const Work = () => {
             <div className="single-work">
               <Image
                 src="/images/work-img6.webp"
+                srcSet="/images/work-img6.webp"
                 alt="work-img"
+                priority
                 width={640}
                 height={450}
               />
