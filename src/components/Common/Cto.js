@@ -8,7 +8,7 @@ const Cto = () => {
     <>
       <section
         className="ctr-area ptb-80"
-        style={{ backgroundImage: `url(/images/ctr-bg.jpg)` }}
+        style={{ backgroundImage: `url(/images/ctr-bg.webp)` }}
       >
         <div className="container">
           <div className="row">

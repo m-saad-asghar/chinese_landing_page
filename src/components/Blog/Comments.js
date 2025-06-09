@@ -12,7 +12,7 @@ const Comments = () => {
         <div className="single-comment">
           <div className="comment-img">
             <Image
-              src="/images/client-avatar2.jpg"
+              src="/images/client-avatar2.webp"
               alt="client"
               width={85}
               height={85}
@@ -34,7 +34,7 @@ const Comments = () => {
         <div className="single-comment left-m">
           <div className="comment-img">
             <Image
-              src="/images/client-avatar1.jpg"
+              src="/images/client-avatar1.webp"
               alt="client"
               width={85}
               height={85}
@@ -56,7 +56,7 @@ const Comments = () => {
         <div className="single-comment">
           <div className="comment-img">
             <Image
-              src="/images/client-avatar2.jpg"
+              src="/images/client-avatar2.webp"
               alt="client"
               width={85}
               height={85}
@@ -78,7 +78,7 @@ const Comments = () => {
         <div className="single-comment mb-0">
           <div className="comment-img">
             <Image
-              src="/images/client-avatar3.jpg"
+              src="/images/client-avatar3.webp"
               alt="client"
               width={85}
               height={85}

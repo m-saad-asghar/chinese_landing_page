@@ -8,7 +8,7 @@ const Funfact = () => {
     <>
       <section
        className={`funFacts-area ptb-80 ${styles.margin_up}`}
-        style={{ backgroundImage: `url(/images/funfact-bg.jpg)` }}
+        style={{ backgroundImage: `url(/images/funfact-bg.webp)` }}
       >
         <div className="container">
           <div className="row justify-content-center">

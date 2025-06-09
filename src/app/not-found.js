@@ -13,7 +13,7 @@ export default function NotFound() {
             <div className="com-lg-8">
               <div className="text-center">
                 <Image
-                  src="/images/404-error.png"
+                  src="/images/404-error.webp"
                   alt="error"
                   width={600}
                   height={587}

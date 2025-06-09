@@ -37,7 +37,7 @@ const Testimonial = () => {
                 <div className="client-info">
                   <div className={styles.set_icon}>
                     <Image
-                      src="/images/one.jpg"
+                      src="/images/one.webp"
                       alt="client-avatar-1"
                       width={250}
                       height={200}
@@ -60,7 +60,7 @@ const Testimonial = () => {
                 <div className="client-info">
                   <div className={styles.set_icon}>
                     <Image
-                      src="/images/two.jpg"
+                      src="/images/two.webp"
                       alt="client-avatar-2"
                       width={250}
                       height={200}
@@ -83,7 +83,7 @@ const Testimonial = () => {
                 <div className="client-info">
                   <div className={styles.set_icon}>
                     <Image
-                      src="/images/three.jpg"
+                      src="/images/three.webp"
                       alt="client-avatar-3"
                       width={250}
                       height={200}
@@ -106,7 +106,7 @@ const Testimonial = () => {
                 <div className="client-info">
                   <div className={styles.set_icon}>
                     <Image
-                      src="/images/four.jpg"
+                      src="/images/four.webp"
                       alt="client-avatar-four"
                       width={250}
                       height={200}
@@ -129,7 +129,7 @@ const Testimonial = () => {
                 <div className="client-info">
                   <div className={styles.set_icon}>
                     <Image
-                      src="/images/five.jpg"
+                      src="/images/five.webp"
                       alt="client-avatar-5"
                       width={250}
                       height={200}
@@ -152,7 +152,7 @@ const Testimonial = () => {
                 <div className="client-info">
                   <div className={styles.set_icon}>
                     <Image
-                      src="/images/six.jpg"
+                      src="/images/six.webp"
                       alt="client-avatar-6"
                       width={250}
                       height={200}
@@ -175,7 +175,7 @@ const Testimonial = () => {
                 <div className="client-info">
                   <div className={styles.set_icon}>
                     <Image
-                      src="/images/seven.jpg"
+                      src="/images/seven.webp"
                       alt="client-avatar-7"
                       width={250}
                       height={200}
@@ -198,7 +198,7 @@ const Testimonial = () => {
                 <div className="client-info">
                   <div className={styles.set_icon}>
                     <Image
-                      src="/images/eight.jpg"
+                      src="/images/eight.webp"
                       alt="client-avatar-8"
                       width={250}
                       height={200}
@@ -221,7 +221,7 @@ const Testimonial = () => {
                 <div className="client-info">
                   <div className={styles.set_icon}>
                     <Image
-                      src="/images/nine.jpg"
+                      src="/images/nine.webp"
                       alt="client-avatar-9"
                       width={250}
                       height={200}
@@ -244,7 +244,7 @@ const Testimonial = () => {
                 <div className="client-info">
                   <div className={styles.set_icon}>
                     <Image
-                      src="/images/ten.jpg"
+                      src="/images/ten.webp"
                       alt="client-avatar-10"
                       width={250}
                       height={200}
@@ -267,7 +267,7 @@ const Testimonial = () => {
                 <div className="client-info">
                   <div className={styles.set_icon}>
                     <Image
-                      src="/images/eleven.jpg"
+                      src="/images/eleven.webp"
                       alt="client-avatar-11"
                       width={250}
                       height={200}
@@ -290,7 +290,7 @@ const Testimonial = () => {
                 <div className="client-info">
                   <div className={styles.set_icon}>
                     <Image
-                      src="/images/twelve.jpg"
+                      src="/images/twelve.webp"
                       alt="client-avatar-12"
                       width={250}
                       height={200}
@@ -313,7 +313,7 @@ const Testimonial = () => {
                 <div className="client-info">
                   <div className={styles.set_icon}>
                     <Image
-                      src="/images/thirteen.jpg"
+                      src="/images/thirteen.webp"
                       alt="client-avatar-13"
                       width={250}
                       height={200}
@@ -336,7 +336,7 @@ const Testimonial = () => {
                 <div className="client-info">
                   <div className={styles.set_icon}>
                     <Image
-                      src="/images/fourteen.jpg"
+                      src="/images/fourteen.webp"
                       alt="client-avatar-14"
                       width={250}
                       height={200}
@@ -359,7 +359,7 @@ const Testimonial = () => {
                 <div className="client-info">
                   <div className={styles.set_icon}>
                     <Image
-                      src="/images/fifteen.jpg"
+                      src="/images/fifteen.webp"
                       alt="client-avatar-15"
                       width={250}
                       height={200}
@@ -382,7 +382,7 @@ const Testimonial = () => {
                 <div className="client-info">
                   <div className={styles.set_icon}>
                     <Image
-                      src="/images/sixteen.jpg"
+                      src="/images/sixteen.webp"
                       alt="client-avatar-16"
                       width={250}
                       height={200}
@@ -405,7 +405,7 @@ const Testimonial = () => {
                 <div className="client-info">
                   <div className={styles.set_icon}>
                     <Image
-                      src="/images/seventeen.jpg"
+                      src="/images/seventeen.webp"
                       alt="client-avatar-17"
                       width={250}
                       height={200}
@@ -428,7 +428,7 @@ const Testimonial = () => {
                 <div className="client-info">
                   <div className={styles.set_icon}>
                     <Image
-                      src="/images/eighteen.jpg"
+                      src="/images/eighteen.webp"
                       alt="client-avatar-18"
                       width={250}
                       height={200}
@@ -451,7 +451,7 @@ const Testimonial = () => {
                 <div className="client-info">
                   <div className={styles.set_icon}>
                     <Image
-                      src="/images/nineteen.jpg"
+                      src="/images/nineteen.webp"
                       alt="client-avatar-19"
                       width={250}
                       height={200}
@@ -474,7 +474,7 @@ const Testimonial = () => {
                 <div className="client-info">
                   <div className={styles.set_icon}>
                     <Image
-                      src="/images/twenty.jpg"
+                      src="/images/twenty.webp"
                       alt="client-avatar-20"
                       width={250}
                       height={200}
@@ -497,7 +497,7 @@ const Testimonial = () => {
                 <div className="client-info">
                   <div className={styles.set_icon}>
                     <Image
-                      src="/images/twenty_one.jpg"
+                      src="/images/twenty_one.webp"
                       alt="client-avatar-21"
                       width={250}
                       height={200}
@@ -520,7 +520,7 @@ const Testimonial = () => {
                 <div className="client-info">
                   <div className={styles.set_icon}>
                     <Image
-                      src="/images/twenty_two.jpg"
+                      src="/images/twenty_two.webp"
                       alt="client-avatar-22"
                       width={250}
                       height={200}
@@ -543,7 +543,7 @@ const Testimonial = () => {
                 <div className="client-info">
                   <div className={styles.set_icon}>
                     <Image
-                      src="/images/twenty_three.jpg"
+                      src="/images/twenty_three.webp"
                       alt="client-avatar-23"
                       width={250}
                       height={200}

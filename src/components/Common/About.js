@@ -98,7 +98,7 @@ const About = () => {
                 data-aos-duration="1000"
               >
                 <Image
-                  src="/images/about.jpg"
+                  src="/images/about.webp"
                   alt="about"
                   className="w-100"
                   width={560}

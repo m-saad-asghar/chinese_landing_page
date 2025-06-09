@@ -9,7 +9,7 @@ const MainBannerNine = () => {
       <div
         id="home"
         className="main-banner"
-        style={{ backgroundImage: `url(/images/main-bg-1.jpg)` }}
+        style={{ backgroundImage: `url(/images/main-bg-1.webp)` }}
       >
         <div className="animation-wrapper">
           <div className="particle particle-1"></div>

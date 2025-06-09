@@ -64,7 +64,7 @@ const Navbar = () => {
           <Link href="/" className="navbar-brand">
           <div>
                               <Image
-                                src="/images/raalc_golden_logo.png"
+                                src="/images/raalc_golden_logo.webp"
                                 alt="raalc-logo"
                                 width={220}
                                 height={220}

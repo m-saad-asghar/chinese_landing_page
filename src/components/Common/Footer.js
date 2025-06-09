@@ -65,7 +65,7 @@ const Footer = () => {
               </h4>
              <div className="pic">
                                                <Image
-                                                 src="/images/wechat.jpeg"
+                                                 src="/images/wechat.webp"
                                                  alt="we_chat_qr_code"
                                                  className="w-100 we_chat"
                                                 

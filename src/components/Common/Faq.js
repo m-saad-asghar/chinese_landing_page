@@ -70,7 +70,7 @@ const Faq = () => {
             <div className="col-lg-5 col-md-12">
               <div
                 className="image"
-                style={{ backgroundImage: `url(/images/commercial_aboutus.jpeg)` }}
+                style={{ backgroundImage: `url(/images/commercial_aboutus.webp)` }}
                 data-aos="fade-up"
                 data-aos-delay="200"
                 data-aos-once="true"

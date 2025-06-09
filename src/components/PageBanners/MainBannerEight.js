@@ -10,7 +10,7 @@ const MainBannerEight = () => {
       <div
         id="home"
         className="main-banner"
-        style={{ backgroundImage: `url(/images/main-bg-2.jpg)` }}
+        style={{ backgroundImage: `url(/images/main-bg-2.webp)` }}
       >
         <div className="d-table">
           <div className="d-table-cell">

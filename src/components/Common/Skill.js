@@ -72,7 +72,7 @@ const Skill = () => {
                 data-aos-duration="1000"
               >
                 <Image
-                  src="/images/video-img.jpg"
+                  src="/images/video-img.webp"
                   alt="video-img"
                   width={580}
                   height={450}

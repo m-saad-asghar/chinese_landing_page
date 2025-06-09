@@ -19,7 +19,7 @@ const Strategy = () => {
             >
               <div
                 className="image"
-                style={{ backgroundImage: `url(/images/faq_image.jpg)` }}
+                style={{ backgroundImage: `url(/images/faq_image.webp)` }}
               ></div>
             </div>
 

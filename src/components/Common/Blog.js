@@ -54,7 +54,7 @@ const Blog = () => {
               <div
                 className="single-blog-item"
                 style={{
-                  backgroundImage: `url("/images/services-img1.jpg")`,
+                  backgroundImage: `url("/images/services-img1.webp")`,
                 }}
               >
                 <span>Business & Tech</span>
@@ -85,7 +85,7 @@ const Blog = () => {
               <div
                 className="single-blog-item"
                 style={{
-                  backgroundImage: `url("/images/services-img2.jpg")`,
+                  backgroundImage: `url("/images/services-img2.webp")`,
                 }}
               >
                 <span>Business & Tech</span>
@@ -116,7 +116,7 @@ const Blog = () => {
               <div
                 className="single-blog-item"
                 style={{
-                  backgroundImage: `url("/images/services-img3.jpg")`,
+                  backgroundImage: `url("/images/services-img3.webp")`,
                 }}
               >
                 <span>Design & IT</span>
@@ -147,7 +147,7 @@ const Blog = () => {
               <div
                 className="single-blog-item"
                 style={{
-                  backgroundImage: `url("/images/services-img4.jpg"))`,
+                  backgroundImage: `url("/images/services-img4.webp"))`,
                 }}
               >
                 <span>Marketing & Trend</span>
@@ -178,7 +178,7 @@ const Blog = () => {
               <div
                 className="single-blog-item"
                 style={{
-                  backgroundImage: `url("/images/services-img5.jpg")`,
+                  backgroundImage: `url("/images/services-img5.webp")`,
                 }}
               >
                 <span>Business & Tech</span>

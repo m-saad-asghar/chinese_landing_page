@@ -41,7 +41,7 @@ const Services = () => {
               <div className="single-services">
                 <div className="services-img">
                   <Image
-                    src="/images/services-img1.jpg"
+                    src="/images/services-img1.webp"
                     alt="services"
                     width={585}
                     height={400}
@@ -72,7 +72,7 @@ const Services = () => {
               <div className="single-services">
                 <div className="services-img">
                   <Image
-                    src="/images/services-img2.jpg"
+                    src="/images/services-img2.webp"
                     alt="services"
                     width={585}
                     height={400}
@@ -103,7 +103,7 @@ const Services = () => {
               <div className="single-services">
                 <div className="services-img">
                   <Image
-                    src="/images/services-img3.jpg"
+                    src="/images/services-img3.webp"
                     alt="services"
                     width={585}
                     height={400}
@@ -134,7 +134,7 @@ const Services = () => {
               <div className="single-services">
                 <div className="services-img">
                   <Image
-                    src="/images/services-img4.jpg"
+                    src="/images/services-img4.webp"
                     alt="services"
                     width={585}
                     height={400}
@@ -165,7 +165,7 @@ const Services = () => {
               <div className="single-services">
                 <div className="services-img">
                   <Image
-                    src="/images/services-img5.jpg"
+                    src="/images/services-img5.webp"
                     alt="services"
                     width={585}
                     height={400}
@@ -196,7 +196,7 @@ const Services = () => {
               <div className="single-services">
                 <div className="services-img">
                   <Image
-                    src="/images/services-img6.jpg"
+                    src="/images/services-img6.webp"
                     alt="services"
                     width={585}
                     height={400}
@@ -227,7 +227,7 @@ const Services = () => {
               <div className="single-services">
                 <div className="services-img">
                   <Image
-                    src="/images/services-img7.jpg"
+                    src="/images/services-img7.webp"
                     alt="services"
                     width={585}
                     height={400}
@@ -258,7 +258,7 @@ const Services = () => {
               <div className="single-services">
                 <div className="services-img">
                   <Image
-                    src="/images/services-img8.jpg"
+                    src="/images/services-img8.webp"
                     alt="services"
                     width={585}
                     height={400}
@@ -289,7 +289,7 @@ const Services = () => {
               <div className="single-services">
                 <div className="services-img">
                   <Image
-                    src="/images/services-img9.jpg"
+                    src="/images/services-img9.webp"
                     alt="services"
                     width={585}
                     height={400}

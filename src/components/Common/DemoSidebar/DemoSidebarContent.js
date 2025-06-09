@@ -16,7 +16,7 @@ const DemoSidebarContent = ({ active, onClick }) => {
             <li>
               <div className="single-demo">
                 <Image
-                  src="/images/demo-img/home-1.jpg"
+                  src="/images/demo-img/home-1.webp"
                   alt="Home One"
                   width={700}
                   height={700}
@@ -28,7 +28,7 @@ const DemoSidebarContent = ({ active, onClick }) => {
             <li>
               <div className="single-demo">
                 <Image
-                  src="/images/demo-img/home-2.jpg"
+                  src="/images/demo-img/home-2.webp"
                   alt="Home Two"
                   width={700}
                   height={700}
@@ -40,7 +40,7 @@ const DemoSidebarContent = ({ active, onClick }) => {
             <li>
               <div className="single-demo">
                 <Image
-                  src="/images/demo-img/home-3.jpg"
+                  src="/images/demo-img/home-3.webp"
                   alt="Home Three"
                   width={700}
                   height={700}
@@ -52,7 +52,7 @@ const DemoSidebarContent = ({ active, onClick }) => {
             <li>
               <div className="single-demo">
                 <Image
-                  src="/images/demo-img/home-4.jpg"
+                  src="/images/demo-img/home-4.webp"
                   alt="Home Four"
                   width={700}
                   height={700}
@@ -64,7 +64,7 @@ const DemoSidebarContent = ({ active, onClick }) => {
             <li>
               <div className="single-demo">
                 <Image
-                  src="/images/demo-img/home-5.jpg"
+                  src="/images/demo-img/home-5.webp"
                   alt="Home Five"
                   width={700}
                   height={700}
@@ -76,7 +76,7 @@ const DemoSidebarContent = ({ active, onClick }) => {
             <li>
               <div className="single-demo">
                 <Image
-                  src="/images/demo-img/home-6.jpg"
+                  src="/images/demo-img/home-6.webp"
                   alt="Home Six"
                   width={700}
                   height={700}
@@ -88,7 +88,7 @@ const DemoSidebarContent = ({ active, onClick }) => {
             <li>
               <div className="single-demo">
                 <Image
-                  src="/images/demo-img/home-7.jpg"
+                  src="/images/demo-img/home-7.webp"
                   alt="Home Seven"
                   width={700}
                   height={700}
@@ -100,7 +100,7 @@ const DemoSidebarContent = ({ active, onClick }) => {
             <li>
               <div className="single-demo">
                 <Image
-                  src="/images/demo-img/home-8.jpg"
+                  src="/images/demo-img/home-8.webp"
                   alt="Home Eight"
                   width={700}
                   height={700}
@@ -112,7 +112,7 @@ const DemoSidebarContent = ({ active, onClick }) => {
             <li>
               <div className="single-demo">
                 <Image
-                  src="/images/demo-img/home-9.jpg"
+                  src="/images/demo-img/home-9.webp"
                   alt="Home Nine"
                   width={700}
                   height={700}
@@ -124,7 +124,7 @@ const DemoSidebarContent = ({ active, onClick }) => {
             <li>
               <div className="single-demo">
                 <Image
-                  src="/images/demo-img/home-10.jpg"
+                  src="/images/demo-img/home-10.webp"
                   alt="Home Ten"
                   width={700}
                   height={700}
@@ -136,7 +136,7 @@ const DemoSidebarContent = ({ active, onClick }) => {
             <li>
               <div className="single-demo">
                 <Image
-                  src="/images/demo-img/home-11.jpg"
+                  src="/images/demo-img/home-11.webp"
                   alt="Home Eleven"
                   width={700}
                   height={700}
@@ -148,7 +148,7 @@ const DemoSidebarContent = ({ active, onClick }) => {
             <li>
               <div className="single-demo">
                 <Image
-                  src="/images/demo-img/home-12.jpg"
+                  src="/images/demo-img/home-12.webp"
                   alt="Home Twelve"
                   width={700}
                   height={700}

@@ -134,7 +134,7 @@ const WhyWeDifferent = () => {
                       <div className="col-lg-6 col-md-6">
                         <div className="why-we-different-img">
                           <Image
-                            src="/images/different-img1.jpg"
+                            src="/images/different-img1.webp"
                             alt="img"
                             width={570}
                             height={450}
@@ -186,7 +186,7 @@ const WhyWeDifferent = () => {
                       <div className="col-lg-6 col-md-6">
                         <div className="why-we-different-img">
                           <Image
-                            src="/images/different-img2.jpg"
+                            src="/images/different-img2.webp"
                             alt="img"
                             width={570}
                             height={450}
@@ -238,7 +238,7 @@ const WhyWeDifferent = () => {
                       <div className="col-lg-6 col-md-6">
                         <div className="why-we-different-img">
                           <Image
-                            src="/images/different-img3.jpg"
+                            src="/images/different-img3.webp"
                             alt="img"
                             width={570}
                             height={450}
@@ -290,7 +290,7 @@ const WhyWeDifferent = () => {
                       <div className="col-lg-6 col-md-6">
                         <div className="why-we-different-img">
                           <Image
-                            src="/images/different-img4.jpg"
+                            src="/images/different-img4.webp"
                             alt="img"
                             width={570}
                             height={450}

@@ -9,7 +9,7 @@ const MainBannerTwelve = () => {
       <div
         id="home"
         className="main-banner"
-        style={{ backgroundImage: `url(/images/main-bg-1.jpg)` }}
+        style={{ backgroundImage: `url(/images/main-bg-1.webp)` }}
       >
         <div className="bubble-wrapper">
           <div>

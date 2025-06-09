@@ -10,19 +10,19 @@ const slideData = [
     heading: "We Are Creative",
     subHeading: "Nice To <span>Meet</span> You",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    bgImg: "/images/main-bg-1.jpg",
+    bgImg: "/images/main-bg-1.webp",
   },
   {
     heading: "We Are Professional",
     subHeading: "Best <span>Digital</span> Experience",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    bgImg: "/images/main-bg-2.jpg",
+    bgImg: "/images/main-bg-2.webp",
   },
   {
     heading: "We Are Designer",
     subHeading: "Creativity is  <span>Intelligence</span>",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    bgImg: "/images/main-bg-3.jpg",
+    bgImg: "/images/main-bg-3.webp",
   },
 ];
 

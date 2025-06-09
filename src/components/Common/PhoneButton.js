@@ -111,7 +111,7 @@ const PhoneButton = () => {
         }}
       >
         <Image
-          src="/images/phone_icon.png"
+          src="/images/phone_icon.webp"
           alt="Phone"
           width={80}
           height={80}

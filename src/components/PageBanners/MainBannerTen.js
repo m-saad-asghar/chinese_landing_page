@@ -10,7 +10,7 @@ const MainBannerTen = () => {
       <div
         id="home"
         className="main-banner"
-        style={{ backgroundImage: `url(/images/main-bg-1.jpg)` }}
+        style={{ backgroundImage: `url(/images/main-bg-1.webp)` }}
       >
         <div className="creative-banner-two"></div>
 

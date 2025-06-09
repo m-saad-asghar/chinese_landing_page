@@ -19,7 +19,7 @@ const BlogDetailsContent = () => {
               <div className="blog-details">
                 <div className="article-img">
                   <Image
-                    src="/images/blog-details.jpg"
+                    src="/images/blog-details.webp"
                     alt="blog-details"
                     width={900}
                     height={500}
@@ -105,7 +105,7 @@ const BlogDetailsContent = () => {
                         <div className="article-author">
                           <div className="author-img">
                             <Image
-                              src="/images/client-avatar1.jpg"
+                              src="/images/client-avatar1.webp"
                               alt="client"
                               width={85}
                               height={85}

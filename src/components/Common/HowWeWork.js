@@ -9,7 +9,7 @@ const HowWeWork = () => {
       <section
         className="how-work ptb-80"
         id="gallery"
-        style={{ backgroundImage: `url(/images/dott.jpg)` }}
+        style={{ backgroundImage: `url(/images/dott.webp)` }}
       >
         <div className="container">
           <div
@@ -38,7 +38,7 @@ const HowWeWork = () => {
               <div className="single-how-work">
                  <div className="pic">
                                   <Image
-                                    src="/images/gallery_1.JPG"
+                                    src="/images/gallery_1.webp"
                                     alt="gallery-img-1"
                                     className="w-100"
                                      style={{height: 350, objectFit: "cover", borderRadius: 10}}
@@ -59,7 +59,7 @@ const HowWeWork = () => {
               <div className="single-how-work">
                  <div className="pic">
                                   <Image
-                                    src="/images/gallery_5.JPG"
+                                    src="/images/gallery_5.webp"
                                     alt="gallery-img-2"
                                     className="w-100"
                                      style={{height: 350, objectFit: "cover", borderRadius: 10}}
@@ -80,7 +80,7 @@ const HowWeWork = () => {
               <div className="single-how-work">
                  <div className="pic">
                                   <Image
-                                    src="/images/gallery_3.JPG"
+                                    src="/images/gallery_3.webp"
                                     alt="gallery-img-3"
                                     className="w-100"
                                      style={{height: 350, objectFit: "cover", borderRadius: 10}}
@@ -101,7 +101,7 @@ const HowWeWork = () => {
               <div className="single-how-work">
                  <div className="pic">
                                   <Image
-                                    src="/images/gallery_4.JPG"
+                                    src="/images/gallery_4.webp"
                                     alt="gallery-img-4"
                                     className="w-100"
                                     style={{height: 350, objectFit: "cover", borderRadius: 10}}
@@ -122,7 +122,7 @@ const HowWeWork = () => {
               <div className="single-how-work">
                  <div className="pic" style={{marginTop: 20}}>
                                   <Image
-                                    src="/images/gallery_5.jpeg"
+                                    src="/images/gallery_5.webp"
                                     alt="gallery-img-5"
                                     className="w-100"
                                      style={{height: 350, objectFit: "cover", borderRadius: 10}}
@@ -143,7 +143,7 @@ const HowWeWork = () => {
               <div className="single-how-work">
               <div className="pic" style={{marginTop: 20}}>
                                   <Image
-                                    src="/images/gallery_6.JPG"
+                                    src="/images/gallery_6.webp"
                                     alt="gallery-img-6"
                                     className="w-100"
                                      style={{height: 350, objectFit: "cover", borderRadius: 10}}
@@ -164,7 +164,7 @@ const HowWeWork = () => {
               <div className="single-how-work">
               <div className="pic" style={{marginTop: 20}}>
                                   <Image
-                                    src="/images/gallery_7.jpeg"
+                                    src="/images/gallery_7.webp"
                                     alt="gallery-img-7"
                                     className="w-100"
                                      style={{height: 350, objectFit: "cover", borderRadius: 10}}
@@ -185,7 +185,7 @@ const HowWeWork = () => {
               <div className="single-how-work">
               <div className="pic" style={{marginTop: 20}}>
                                   <Image
-                                    src="/images/gallery_8.JPG"
+                                    src="/images/gallery_8.webp"
                                     alt="gallery-img-8"
                                     className="w-100"
                                     style={{height: 350, objectFit: "cover", borderRadius: 10}}

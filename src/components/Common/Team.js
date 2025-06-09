@@ -53,7 +53,7 @@ const Team = () => {
               <div className="our-team">
                 <div className="pic">
                   <Image
-                    src="/images/ehab.jpg"
+                    src="/images/ehab.webp"
                     alt="team-img"
                     className="w-100"
                     width={300}
@@ -85,7 +85,7 @@ const Team = () => {
               <div className="our-team">
                 <div className="pic">
                   <Image
-                    src="/images/abdelaziz.jpg"
+                    src="/images/abdelaziz.webp"
                     alt="team-img"
                     className="w-100"
                     width={300}
@@ -117,7 +117,7 @@ const Team = () => {
               <div className="our-team">
                 <div className="pic">
                   <Image
-                    src="/images/lina.jpg"
+                    src="/images/lina.webp"
                     alt="team-img"
                     className="w-100"
                     width={300}
@@ -174,7 +174,7 @@ const Team = () => {
               <div className="our-team">
                 <div className="pic">
                   <Image
-                    src="/images/israa.jpg"
+                    src="/images/israa.webp"
                     alt="team-img"
                     className="w-100"
                     width={300}
@@ -205,7 +205,7 @@ const Team = () => {
               <div className="our-team">
                 <div className="pic">
                   <Image
-                    src="/images/hossam.jpg"
+                    src="/images/hossam.webp"
                     alt="team-img"
                     className="w-100"
                     width={300}
@@ -236,7 +236,7 @@ const Team = () => {
               <div className="our-team">
                 <div className="pic">
                   <Image
-                    src="/images/atif.jpg"
+                    src="/images/atif.webp"
                     alt="team-img"
                     className="w-100"
                     width={300}
@@ -267,7 +267,7 @@ const Team = () => {
               <div className="our-team">
                 <div className="pic">
                   <Image
-                    src="/images/kate.jpg"
+                    src="/images/kate.webp"
                     alt="team-img"
                     className="w-100"
                     width={300}
@@ -299,7 +299,7 @@ const Team = () => {
               <div className="our-team">
                 <div className="pic">
                   <Image
-                    src="/images/zaur.jpg"
+                    src="/images/zaur.webp"
                     alt="team-img"
                     className="w-100"
                     width={300}
@@ -330,7 +330,7 @@ const Team = () => {
               <div className="our-team">
                 <div className="pic">
                   <Image
-                    src="/images/anda.jpg"
+                    src="/images/anda.webp"
                     alt="team-img"
                     className="w-100"
                     width={300}
@@ -361,7 +361,7 @@ const Team = () => {
               <div className="our-team">
                 <div className="pic">
                   <Image
-                    src="/images/mohamed.jpg"
+                    src="/images/mohamed.webp"
                     alt="team-img"
                     className="w-100"
                     width={300}
