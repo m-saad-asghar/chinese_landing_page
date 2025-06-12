@@ -48,7 +48,7 @@
     color: #000000;
   }
   .main-banner {
-    height: 100vh !important;
+    height: auto !important;
     padding-top: 110px;
     padding-bottom: 110px;
   }
@@ -652,7 +652,7 @@
     padding-left: 12px;
   }
   .main-banner {
-    height: 100vh !important;
+    height: auto !important;
     padding-top: 120px;
     padding-bottom: 120px;
   }
