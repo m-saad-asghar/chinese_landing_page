@@ -4,7 +4,7 @@
 import { useState, useEffect } from 'react';
 
 export default function CustomForm() {
-  const ADMINS = ['Salma', 'Courage', 'Hisham', 'Abie', 'Rey', 'Abdul', 'Sahana'];
+  const ADMINS = ['Abie'];
 
   function getNextAdmin() {
     try {

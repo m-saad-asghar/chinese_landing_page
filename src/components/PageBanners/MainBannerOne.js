@@ -11,7 +11,7 @@ const MainBannerOne = () => {
     <div id="home" className="main-banner" style={{ position: "relative", overflow: "hidden" }}>
       {/* Background image as an img tag */}
       <img 
-        src="/images/home_page_bg_image.webp" 
+        src="/images/header_real-estate.webp" 
         alt="Background"
         fetchPriority="high"
         style={{
