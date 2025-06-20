@@ -84,7 +84,7 @@ const Contact = () => {
               <div className="contact-info" style={{padding: 38}}>
                 <ul>
                   <li>
-                    <i className="fa fa-map-marker"></i> Dubai Office (HQ): Offices 308 & 309 & 312, 3rd Floor, Dubai Supreme Court Complex, Umm Hurair 2, Dubai, UAE
+                    <i className="fa fa-map-marker"></i> Dubai Office (HQ): Offices 308 , 309 & 312, 3rd Floor, Dubai Supreme Court Complex, Umm Hurair 2, Dubai, UAE
                   </li>
                   <li>
                     <i className="fa fa-envelope"></i>
