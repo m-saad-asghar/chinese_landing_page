@@ -4,19 +4,22 @@
 import { useState, useEffect } from 'react';
 
 export default function CustomForm() {
-  const ADMINS = ['Abie'];
+  const ADMINS = ['Salma', 'Courage', 'Hisham', 'Abie', 'Rey', 'Abdul', 'Sahana'];
 
-  function getNextAdmin() {
-    try {
-      const key = 'lastAdminIndex';
-      const last = parseInt(localStorage.getItem(key) || '-1', 10);
-      const next = ((isNaN(last) ? -1 : last) + 1) % ADMINS.length;
-      localStorage.setItem(key, next.toString());
-      return ADMINS[next];
-    } catch {
-      return ADMINS[0];
-    }
+async function getNextAdmin() {
+  try {
+    const res = await fetch('https://api.raalc.ae/api/landing_pages_counter');
+    const data = await res.json();
+
+    const index = typeof data.counter === 'number' ? data.counter % ADMINS.length : 0;
+    return ADMINS[index];
+  } catch (e) {
+    console.warn('Failed to fetch counter from API, defaulting to first admin');
+    return ADMINS[0]; // fallback
   }
+}
+
+
 
   const [formData, setFormData] = useState({
     name: '',
@@ -86,38 +89,39 @@ export default function CustomForm() {
     return Object.keys(newErrors).length === 0;
   };
 
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    if (!validate()) return;
+const handleSubmit = async (e) => {
+  e.preventDefault();
+  if (!validate()) return;
 
-    const selectedAdmin = getNextAdmin();
-    const payload = {
-      ...formData,
-      assignedAdmin: selectedAdmin,
-      pageUrl: typeof window !== 'undefined' ? window.location.href : '',
-      timestamp: new Date().toISOString()
-    };
-
-    try {
-      const res = await fetch('/api/contact', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(payload)
-      });
-      const result = await res.json();
-
-      if (!res.ok || result.ok === false) {
-        throw new Error(result.message || `Status ${res.status}`);
-      }
-
-      setAdmin(selectedAdmin);
-      setSubmitted(true);
-      setFormData({ name: '', email: '', phone: '', message: '', assignedAdmin: '', origin: '' });
-      setErrors({});
-    } catch (error) {
-      console.error('Submission error:', error);
-    }
+  const selectedAdmin = await getNextAdmin(); // NOTE: await here
+  const payload = {
+    ...formData,
+    assignedAdmin: selectedAdmin,
+    pageUrl: typeof window !== 'undefined' ? window.location.href : '',
+    timestamp: new Date().toISOString()
   };
+
+  try {
+    const res = await fetch('/api/contact', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload)
+    });
+
+    const result = await res.json();
+    if (!res.ok || result.ok === false) {
+      throw new Error(result.message || `Status ${res.status}`);
+    }
+
+    setAdmin(selectedAdmin);
+    setSubmitted(true);
+    setFormData({ name: '', email: '', phone: '', message: '', assignedAdmin: '', origin: '' });
+    setErrors({});
+  } catch (error) {
+    console.error('Submission error:', error);
+  }
+};
+
 
   const fieldStyle = (field) => ({
     width: '100%',
