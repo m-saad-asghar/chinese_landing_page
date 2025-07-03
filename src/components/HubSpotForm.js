@@ -152,7 +152,7 @@ const handleSubmit = async (e) => {
   return (
     <div style={containerStyle}>
       <form onSubmit={handleSubmit} noValidate>
-        {['name', 'email', 'phone', 'message'].map((field) => (
+        {['姓名', '电子邮箱', '电话号码', '留言内容'].map((field) => (
           <div key={field} style={fieldWrapper}>
             <label style={labelStyle} htmlFor={field}>
               {field.charAt(0).toUpperCase() + field.slice(1)}*
@@ -198,7 +198,7 @@ const handleSubmit = async (e) => {
             cursor: 'pointer'
           }}
         >
-          Submit
+          提交
         </button>
 
         {submitted && admin && (

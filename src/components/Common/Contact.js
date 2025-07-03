@@ -62,12 +62,11 @@ const Contact = () => {
             data-aos-once="true"
             data-aos-duration="1000"
           >
-            <h4>Contact Us: Get in Touch</h4>
             <h2>
-            Turning Business Challenges into <span> Strategic Wins</span>
-            </h2>
+           RAALC —— 法律细节成就卓越            </h2>
             <p>
-            Legal challenges don&apos;t just need solving, they need transforming. From business setup and mergers to restructuring and risk management, RAALC provides tailored legal solutions that turn complexity into clarity and ensure compliance every step of the way.
+            不要让法律事务悬而未决。立即通过可信赖的法律团队保护您的企业和投资。预约咨询，让我们帮助您做出明智的法律决策，支持您的长期成功。
+
             </p>
           </div>
 
@@ -84,7 +83,7 @@ const Contact = () => {
               <div className="contact-info" style={{padding: 38}}>
                 <ul>
                   <li>
-                    <i className="fa fa-map-marker"></i> Dubai Office (HQ): Offices 308 , 309 & 312, 3rd Floor, Dubai Supreme Court Complex, Umm Hurair 2, Dubai, UAE
+                    <i className="fa fa-map-marker"></i> 迪拜办公室（总部）：阿联酋迪拜，乌姆胡赖尔2区，迪拜最高法院大楼三楼，308、309、312办公室。
                   </li>
                   <li>
                     <i className="fa fa-envelope"></i>
@@ -92,7 +91,7 @@ const Contact = () => {
                   </li>
                   <li>
                     <i className="fa fa-phone"></i>
-                    <a href="tel:8007225223">800-7225223</a>
+                    <a href="tel:8007225223">800-7225223 （免费电话）</a>
                     <span> (TOLL FREE)</span>
                   </li>
                 </ul>
@@ -103,11 +102,11 @@ const Contact = () => {
               <div className="contact-form" style={{padding: 0}}>
               <div className={`main-banner-text ${styles.form_styling}`}>
                 <p className={styles.form_heading}>
-                Speak to a corporate Lawyer Now
+                立即咨询法律顾问！
                 </p>
                 <HubSpotForm formId="hubspotForm2"/>
                   <p className={styles.form_footer}>
-            Your information is 100% secure & confidential.
+            您的信息将被100%安全保密。
             </p>
                   </div>
               </div>

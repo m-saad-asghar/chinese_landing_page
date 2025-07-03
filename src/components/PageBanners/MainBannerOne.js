@@ -37,7 +37,7 @@ const MainBannerOne = () => {
                     data-aos-once="true"
                     data-aos-duration="1000"
                   >
-                    RAALC Law Firm — Your Corporate Legal Partner in the UAE
+                   欢迎来到拉尔克（RAALC）律师事务所 —— 为您每一个阶段提供法律专业支持
                   </h4>
 
                   <h1
@@ -49,9 +49,9 @@ const MainBannerOne = () => {
                   >
                     <Typewriter
                       words={[
-                        "Corporate Lawyer in Dubai",
-                        "Trusted Dispute Resolution Partner",
-                        "Expert Legal Support for Companies",
+                        "值得信赖的法律支持",
+                        "以法律赋能企业发展",
+                        "您实现法律成功的合作伙伴",
                       ]}
                       loop={true}
                       cursor
@@ -68,7 +68,8 @@ const MainBannerOne = () => {
                     data-aos-once="true"
                     data-aos-duration="1000"
                   >
-                    Legal clarity is not a luxury, it’s your business advantage. RAALC’s corporate lawyers deliver end-to-end legal support for company formation, business setup in Dubai, contract drafting, and corporate arbitration. From M&A legal advisory to trademark registration, we simplify the law so you can scale with confidence and peace of mind.
+                   量身定制的法律解决方案，满足您的多样化需求——无论您需要法律咨询、争议解决，还是出庭代理，我们都将为您提供应得的专业支持。
+
                   </p>
                 </div>
               </div>
@@ -76,11 +77,11 @@ const MainBannerOne = () => {
               <div className={`col-lg-6 col-md-12 ${styles.form_container}`}>
                 <div className={`main-banner-text ${styles.form_styling}`}>
                   <p className={styles.form_heading}>
-                    Speak to a Corporate Lawyer Now!
+                    立即咨询法律顾问！
                   </p>
                   <HubSpotForm formId="hubspotForm1" />
                   <p className={styles.form_footer}>
-                    Your information is 100% secure & confidential.
+                    您的信息将被100%安全保密。
                   </p>
                 </div>
               </div>
