@@ -1,29 +1,212 @@
-"use client";
-import { useEffect } from "react";
+// 📁 src/components/HubSpotForm.js
+'use client';
 
-const HubSpotForm = ({ formId }) => {
+import { useState, useEffect } from 'react';
+
+export default function CustomForm() {
+  const ADMINS = ['Salma', 'Courage', 'Hisham', 'Abie', 'Rey', 'Abdul', 'Sahana'];
+
+async function getNextAdmin() {
+  try {
+    const res = await fetch('https://api.raalc.ae/api/landing_pages_counter');
+    const data = await res.json();
+
+    const index = typeof data.counter === 'number' ? data.counter % ADMINS.length : 0;
+    return ADMINS[index];
+  } catch (e) {
+    console.warn('Failed to fetch counter from API, defaulting to first admin');
+    return ADMINS[0]; // fallback
+  }
+}
+
+
+
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    phone: '',
+    message: '',
+    assignedAdmin: '',
+    origin: ''
+  });
+  const [errors, setErrors] = useState({});
+  const [submitted, setSubmitted] = useState(false);
+  const [admin, setAdmin] = useState('');
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData(prev => ({ ...prev, [name]: value }));
+    setErrors(prev => ({ ...prev, [name]: '' }));
+  };
+
   useEffect(() => {
-    const script = document.createElement("script");
-    script.src = "//js.hsforms.net/forms/embed/v2.js";
-    script.type = "text/javascript";
-    script.charset = "utf-8";
-    script.async = true;
+    setSubmitted(false);
 
-    script.onload = () => {
-      if (window.hbspt) {
-        window.hbspt.forms.create({
-          portalId: "20189826",
-          formId: "f34f6035-a4be-415e-a5fc-2e5e39482f17",
-          region: "na1",
-          target: `#${formId}`
-        });
-      }
+    const getAdNumberFromUrl = () => {
+      const params = new URLSearchParams(window.location.search);
+      return (
+        params.get('utm_campaign') ||
+        params.get('hsa_cam') ||
+        params.get('campaignid') ||
+        null
+      );
     };
 
-    document.body.appendChild(script);
-  }, [formId]);
+    const adNumber = getAdNumberFromUrl();
 
-  return <div id={formId}></div>;
+
+    if (adNumber && adNumber.trim() !== '') {
+      fetch('https://api.raalc.ae/api/get_ad_name', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ ad_number: adNumber })
+      })
+        .then(res => res.json())
+        .then(data => {
+          if (data.data) {
+            setFormData(prev => ({ ...prev, origin: data.data }));
+          } else {
+            setFormData(prev => ({ ...prev, origin: 'Organic' }));
+          }
+        })
+        .catch(() => {
+          setFormData(prev => ({ ...prev, origin: 'Organic' }));
+        });
+    } else {
+      setFormData(prev => ({ ...prev, origin: 'Organic' }));
+    }
+  }, []);
+
+  const validate = () => {
+    const newErrors = {};
+    if (!formData.name.trim()) newErrors.name = 'Name is required.';
+    const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!formData.email.trim()) newErrors.email = 'Email is required.';
+    else if (!emailPattern.test(formData.email)) newErrors.email = 'Enter a valid email.';
+    if (!formData.phone.trim()) newErrors.phone = 'Phone number is required.';
+    if (!formData.message.trim()) newErrors.message = 'Message is required.';
+    setErrors(newErrors);
+    return Object.keys(newErrors).length === 0;
+  };
+
+const handleSubmit = async (e) => {
+  e.preventDefault();
+  if (!validate()) return;
+
+  const selectedAdmin = await getNextAdmin(); // NOTE: await here
+  const payload = {
+    ...formData,
+    assignedAdmin: selectedAdmin,
+    pageUrl: typeof window !== 'undefined' ? window.location.href : '',
+    timestamp: new Date().toISOString()
+  };
+
+  try {
+    const res = await fetch('/api/contact', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload)
+    });
+
+    const result = await res.json();
+    if (!res.ok || result.ok === false) {
+      throw new Error(result.message || `Status ${res.status}`);
+    }
+
+    setAdmin(selectedAdmin);
+    setSubmitted(true);
+    setFormData({ name: '', email: '', phone: '', message: '', assignedAdmin: '', origin: '' });
+    setErrors({});
+  } catch (error) {
+    console.error('Submission error:', error);
+  }
 };
 
-export default HubSpotForm;
+
+  const fieldStyle = (field) => ({
+    width: '100%',
+    border: 'none',
+    borderBottom: `2px solid ${errors[field] ? 'red' : '#d1d9e0'}`,
+    padding: '0.5rem 0',
+    outline: 'none'
+  });
+
+  const containerStyle = {
+    maxWidth: '600px',
+    margin: '1rem auto',
+    background: '#fff',
+    padding: '1.5rem',
+  };
+
+  const fieldWrapper = {
+    marginBottom: '1rem',
+    textAlign: 'left'
+  };
+
+  const labelStyle = {
+    display: 'block',
+    fontWeight: '500',
+    marginBottom: '0.25rem'
+  };
+
+  return (
+    <div style={containerStyle}>
+      <form onSubmit={handleSubmit} noValidate>
+        {['姓名', '电子邮箱', '电话号码', '留言内容'].map((field) => (
+          <div key={field} style={fieldWrapper}>
+            <label style={labelStyle} htmlFor={field}>
+              {field.charAt(0).toUpperCase() + field.slice(1)}*
+            </label>
+            {field !== 'message' ? (
+              <input
+                id={field}
+                name={field}
+                type={field === 'email' ? 'email' : field === 'phone' ? 'tel' : 'text'}
+                value={formData[field]}
+                onChange={handleChange}
+                style={fieldStyle(field)}
+              />
+            ) : (
+              <textarea
+                id={field}
+                name={field}
+                rows={1}
+                value={formData[field]}
+                onChange={handleChange}
+                style={fieldStyle(field)}
+              />
+            )}
+            {errors[field] && (
+              <span style={{ color: 'red', fontSize: '0.875rem', marginTop: '0.25rem', display: 'block' }}>
+                {errors[field]}
+              </span>
+            )}
+          </div>
+        ))}
+
+        <button
+          type="submit"
+          style={{
+            background: '#d4af37',
+            width: '100%',
+            color: '#fff',
+            border: 'none',
+            padding: '0.75rem',
+            fontSize: '1rem',
+            fontWeight: '600',
+            borderRadius: '4px',
+            cursor: 'pointer'
+          }}
+        >
+          提交
+        </button>
+
+        {submitted && admin && (
+          <p style={{ marginTop: '3rem', color: '#333' }}>
+            Thank you! We will contact you shortly.
+          </p>
+        )}
+      </form>
+    </div>
+  );
+}
