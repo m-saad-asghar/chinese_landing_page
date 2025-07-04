@@ -38,8 +38,8 @@ const HowWeWork = () => {
               <div className="single-how-work">
                  <div className="pic">
                                   <Image
-                                    src="/images/gallery_1.webp"
-                                    srcset="/images/gallery_1.webp"
+                                    src="/images/01.webp"
+                                    srcset="/images/01.webp"
                                     alt="gallery-img-1" 
                                     className="w-100"
                                      style={{height: 350, objectFit: "cover", borderRadius: 10}}
@@ -60,8 +60,8 @@ const HowWeWork = () => {
               <div className="single-how-work">
                  <div className="pic">
                                   <Image
-                                    src="/images/gallery_5.webp"
-                                    srcset="/images/gallery_5.webp"
+                                    src="/images/02.webp"
+                                    srcset="/images/02.webp"
                                     alt="gallery-img-2"
                                     className="w-100"
                                      style={{height: 350, objectFit: "cover", borderRadius: 10}}
@@ -82,8 +82,8 @@ const HowWeWork = () => {
               <div className="single-how-work">
                  <div className="pic">
                                   <Image
-                                    src="/images/gallery_3.webp"
-                                    srcset="/images/gallery_3.webp"
+                                    src="/images/03.webp"
+                                    srcset="/images/03.webp"
                                     alt="gallery-img-3"
                                     className="w-100"
                                      style={{height: 350, objectFit: "cover", borderRadius: 10}}
@@ -104,8 +104,8 @@ const HowWeWork = () => {
               <div className="single-how-work">
                  <div className="pic">
                                   <Image
-                                    src="/images/gallery_4.webp"
-                                    srcset="/images/gallery_4.webp"
+                                    src="/images/04.webp"
+                                    srcset="/images/04.webp"
                                     alt="gallery-img-4"
                                     className="w-100"
                                     style={{height: 350, objectFit: "cover", borderRadius: 10}}
@@ -126,8 +126,8 @@ const HowWeWork = () => {
               <div className="single-how-work">
                  <div className="pic" style={{marginTop: 20}}>
                                   <Image
-                                    src="/images/gallery_5.webp"
-                                    srcset="/images/gallery_5.webp"
+                                    src="/images/05.webp"
+                                    srcset="/images/05.webp"
                                     alt="gallery-img-5"
                                     className="w-100"
                                      style={{height: 350, objectFit: "cover", borderRadius: 10}}
@@ -148,8 +148,8 @@ const HowWeWork = () => {
               <div className="single-how-work">
               <div className="pic" style={{marginTop: 20}}>
                                   <Image
-                                    src="/images/gallery_6.webp"
-                                    srcset="/images/gallery_6.webp"
+                                    src="/images/06.webp"
+                                    srcset="/images/06.webp"
                                     alt="gallery-img-6"
                                     className="w-100"
                                      style={{height: 350, objectFit: "cover", borderRadius: 10}}
@@ -170,8 +170,8 @@ const HowWeWork = () => {
               <div className="single-how-work">
               <div className="pic" style={{marginTop: 20}}>
                                   <Image
-                                    src="/images/gallery_7.webp"
-                                    srcset="/images/gallery_7.webp"
+                                    src="/images/07.webp"
+                                    srcset="/images/07.webp"
                                     alt="gallery-img-7"
                                     className="w-100"
                                      style={{height: 350, objectFit: "cover", borderRadius: 10}}
@@ -192,8 +192,8 @@ const HowWeWork = () => {
               <div className="single-how-work">
               <div className="pic" style={{marginTop: 20}}>
                                   <Image
-                                    src="/images/gallery_8.webp"
-                                    srcset="/images/gallery_8.webp"
+                                    src="/images/08.webp"
+                                    srcset="/images/08.webp"
                                     alt="gallery-img-8"
                                     className="w-100"
                                     style={{height: 350, objectFit: "cover", borderRadius: 10}}
