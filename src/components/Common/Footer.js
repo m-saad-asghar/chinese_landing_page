@@ -43,6 +43,8 @@ const Footer = () => {
                     target="_blank"
                   ></Link>
                 </li>
+              </ul>
+              <ul>
                 <li>
                   <Link
                     href="https://www.instagram.com/raalc_uae/"
@@ -56,6 +58,35 @@ const Footer = () => {
                     className={`fa-brands fa-linkedin-in ${styles.icon_styling}`}
                     target="_blank"
                   ></Link>
+                </li>
+              </ul>
+              <ul>
+                <li>
+                  <Link
+                    href="https://weixin.qq.com/r/mp/3URGXkTEIBlfrQA99xHP"
+                    className={`fa-brands fa fa-weixin ${styles.icon_styling}`}
+                    target="_blank"
+                  ></Link>
+                </li>
+                  <li>
+                  <Link
+  href="https://www.xiaohongshu.com/user/profile/6641379900000000070058e9?xsec_token=YBFw78zFw5MLOUwubuq44nv98DFdd3wysbESRD0CPZ8gU=&xsec_source=app_share&xhsshare=CopyLink&appuid=661e4342000000000700636f&apptime=1752131206&share_id=4dfd28ed5be54c64a278eab5312d50a3"
+ style={{fontSize: 36, lineHeight: "50px"}}
+  target="_blank"
+>
+  {/* FontAwesome Icon */}
+  <i className="fa-brands fa-xiaohongshu"></i>
+
+  {/* Image */}
+  <Image
+    src="/images/little_red_book.webp"
+    srcSet="/images/little_red_book.webp"
+    alt="little_red_book"
+    className="w-40"
+    width={48}
+    height={45}
+  />
+</Link>
                 </li>
               </ul>
             </div>
