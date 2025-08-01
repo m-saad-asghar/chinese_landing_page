@@ -21,6 +21,9 @@ export async function POST(req) {
     assignedAdmin,
     pageUrl,
     origin,
+    utm_compaign,
+    utm_source,
+    source,
     timestamp,
   } = formData;
 
@@ -41,6 +44,9 @@ export async function POST(req) {
     assignedAdmin,
     pageUrl,
     origin,
+    utm_compaign,
+    utm_source,
+    source,
     timestamp: timestamp || new Date().toISOString(),
   };
 

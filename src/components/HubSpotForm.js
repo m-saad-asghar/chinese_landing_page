@@ -63,8 +63,8 @@ async function getNextAdmin() {
       })
         .then(res => res.json())
         .then(data => {
-          if (data.data) {
-            setFormData(prev => ({ ...prev, origin: data.data }));
+           if (data && data.ad_name) {
+            setFormData(prev => ({ ...prev, origin: data.ad_name }));
           } else {
             setFormData(prev => ({ ...prev, origin: 'Organic' }));
           }
@@ -89,6 +89,14 @@ async function getNextAdmin() {
     return Object.keys(newErrors).length === 0;
   };
 
+    const getQueryParam = (param) => {
+  if (typeof window !== 'undefined') {
+    const urlParams = new URLSearchParams(window.location.search);
+    return urlParams.get(param);
+  }
+  return null;
+};
+
 const handleSubmit = async (e) => {
   e.preventDefault();
   if (!validate()) return;
@@ -98,7 +106,10 @@ const handleSubmit = async (e) => {
     ...formData,
     assignedAdmin: selectedAdmin,
     pageUrl: typeof window !== 'undefined' ? window.location.href : '',
-    timestamp: new Date().toISOString()
+    timestamp: new Date().toISOString(),
+    ...(getQueryParam('utm_campaign') && { utm_campaign: getQueryParam('utm_campaign') }),
+    ...(getQueryParam('utm_source') && { utm_source: getQueryParam('utm_source').replace(/_/g, ' ') }),
+    source: "Form Submission"
   };
 
   try {
