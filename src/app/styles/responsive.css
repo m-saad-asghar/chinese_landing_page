@@ -818,3 +818,37 @@
     height: 950px !important;
   }
 }/*# sourceMappingURL=responsive.css.map */
+
+
+
+.country-list {
+  max-height: 380px !important;
+}
+
+@media only screen and (max-width: 991px) {
+ .country-list {
+  position: relative !important;
+}
+}
+
+/* Name group container */
+.name-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  width: 100%;
+}
+
+/* Each name field wrapper */
+.name-field {
+  flex: 1 1 calc(50% - 6px);
+  max-width: calc(50% - 6px);
+}
+
+/* Stack on mobile */
+@media (max-width: 768px) {
+  .name-field {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+}

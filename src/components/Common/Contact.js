@@ -105,9 +105,45 @@ const Contact = () => {
                 立即咨询法律顾问！
                 </p>
                 <HubSpotForm formId="hubspotForm2"/>
-                  <p className={styles.form_footer}>
-            您的信息将被100%安全保密。
-            </p>
+                                     <div
+  style={{
+    display: 'flex',
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    flexWrap: 'wrap', // allows stacking on small screens
+    textAlign: 'center', // for text centering in stacked mode
+  }}
+>
+  <img
+    src="https://api.raalc.ae/storage/lowyer_images/hqesOYuFbRhroZRI3zSrc2xA3lHVD1AieHV7IBo4.webp"
+    alt="Ehab Mohamed"
+    style={{
+      height: '100px',
+      width: 'auto',
+      borderRadius: '50%',
+      marginBottom: '10px',
+    }}
+  />
+  <div
+    style={{
+      marginLeft: '20px',
+      display: 'flex',
+      flexDirection: 'column',
+      justifyContent: 'center',
+      alignItems: 'flex-start',
+    }}
+  >
+    <div style={{ fontWeight: 'bold', fontSize: '18px' }}>Ehab Mohamed</div>
+    <div style={{ fontSize: '14px' }}>
+      CEO - Senior Litigation Consultant - International Arbitrator
+    </div>
+    <div style={{ fontSize: '14px', fontWeight: 'bold' }}>
+      +971 55 120 8555
+    </div>
+  </div>
+  
+</div>
                   </div>
               </div>
             </div>
