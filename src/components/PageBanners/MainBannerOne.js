@@ -109,9 +109,9 @@ const MainBannerOne = () => {
       alignItems: 'flex-start',
     }}
   >
-    <div style={{ fontWeight: 'bold', fontSize: '18px' }}>Ehab Mohamed</div>
+    <div style={{ fontWeight: 'bold', fontSize: '18px' }}>伊哈布·穆罕默德</div>
     <div style={{ fontSize: '14px' }}>
-      CEO - Senior Litigation Consultant - International Arbitrator
+      首席执行官 - 高级诉讼顾问 - 国际仲裁员
     </div>
     <div style={{ fontSize: '14px', fontWeight: 'bold' }}>
       +971 55 120 8555
