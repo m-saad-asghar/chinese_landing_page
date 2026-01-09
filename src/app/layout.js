@@ -82,8 +82,8 @@ export default function RootLayout({ children }) {
             gap: "50px",
           }}
         >
-          <PhoneButton />
-          <WhatsAppButton />
+          {/* <PhoneButton />
+          <WhatsAppButton /> */}
         </div>
 
         <GoTop />
